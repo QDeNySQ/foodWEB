@@ -70,3 +70,6 @@ function openAddress(){
         alert('Спробуйте ввімкнути спливаючі вікна у вашому браузері!');
     }
 }
+
+const currentDateTime = new Date().toISOString().slice(0, 16);
+refs.reserveDate.min = currentDateTime;
