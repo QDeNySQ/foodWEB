@@ -1,0 +1,72 @@
+[
+  {
+    "Photo": "https://assets.bonappetit.com/photos/5a6f48f94f860a026c60fd71/1:1/w_5111,h_5111,c_limit/pasta-carbonara.jpg",
+    "Name": "Паста карбонара",
+    "Bio": "Класична італійська страва з спагетті, бекону, яєць і пармезану.",
+    "Cost": 150,
+    "InStock": true
+  },
+  {
+    "Photo": "https://klopotenko.com/wp-content/uploads/2019/01/Steik-zi-svininy_site-webUkr.jpg",
+    "Name": "Стейк зі свинини",
+    "Bio": "Соковите шматок свинини, смажений на вугіллі зі спеціями.",
+    "Cost": 300,
+    "InStock": true
+  },
+  {
+    "Photo": "https://static.1000.menu/res/640/img/content-v2/eb/79/19516/salat-cezar-klassicheskii-s-kuricei_1611309331_16_max.jpg",
+    "Name": "Салат Цезар",
+    "Bio": "Салат із курячим філе, листям салату, сухариками та соусом Цезар.",
+    "Cost": 120,
+    "InStock": true
+  },
+  {
+    "Photo": "https://images.pizza33.ua/products/product/m8puwKrKKboEnfjOt3OEFvuZWwgdHsQW.png",
+    "Name": "Піца Маргарита",
+    "Bio": "Піца з томатами, моцарелою, базиліком і оливковою олією.",
+    "Cost": 110,
+    "InStock": false
+  },
+  {
+    "Photo": "https://static.apostrophe.ua/uploads/image/01baef96eac16ff187e45eea2edc285c.jpg",
+    "Name": "Суп гороховий",
+    "Bio": "Смачний суп із зеленим горохом і беконом.",
+    "Cost": 80,
+    "InStock": true
+  },
+  {
+    "Photo": "https://www.maggi.ru/data/images/recept/img640x500/recept_3976_sh69.jpg",
+    "Name": "Лосось гриль",
+    "Bio": "Філе лосося, приготоване на грилі з лимоном і розмарином.",
+    "Cost": 160,
+    "InStock": true
+  },
+  {
+    "Photo": "https://nssz.com.ua/image/catalog/blog/2020/pasta.jpg",
+    "Name": "Паста з грибами",
+    "Bio": "Спагетті з грибами, часником і вершковим соусом.",
+    "Cost": 110,
+    "InStock": false
+  },
+  {
+    "Photo": "https://fainemisto.com/media/products_iiko/1ddf6baf-61d8-4064-b8c0-9fbaf06ba104.jpg",
+    "Name": "Бургер з куркою",
+    "Bio": "Бургер із соковитою куркою",
+    "Cost": 90,
+    "InStock": true
+  },
+  {
+    "Photo": "https://966.ua/upload/iblock/7cb/7cbba90980a50169fc9e7b41f2e76078.jpg",
+    "Name": "Суші набір",
+    "Bio": "Набір різних суші з лососем, тунцем та авокадо.",
+    "Cost": 450,
+    "InStock": false
+  },
+  {
+    "Photo": "https://www.uman.prontopizza.ua/wp-content/uploads/2018/01/potato-100.jpg",
+    "Name": "Картопля фрі",
+    "Bio": "Смажені картопельні палички зі спеціями.",
+    "Cost": 50,
+    "InStock": true
+  }
+]

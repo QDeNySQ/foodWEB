@@ -1,0 +1,21 @@
+{{#each this}}
+<div class="dishes">
+    <div class="dishes-img">
+        <img src="{{Photo}}">
+    </div>
+    <div class="dishes-title">
+        <h4>{{Name}}</h4>
+        <h4>{{Cost}} грн.</h4>
+    </div>
+    <div class="dishes-bio">
+        <p>{{Bio}}</p>
+    </div>
+    <div class="dishes-w">
+        {{#if InStock}}
+            <p class="dishes-is">Є в наявності!</p>
+        {{else}}
+            <p class="dishes-isnt">Немає в наявності!</p>
+        {{/if}}
+    </div>
+</div>
+{{/each}}

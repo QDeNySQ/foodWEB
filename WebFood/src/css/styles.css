@@ -1,0 +1,290 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: white;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #f6f6f6;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+}
+header .header-block {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header-block img {
+  width: 50px;
+  transition-duration: 0.5s;
+}
+header .header-block img:hover {
+  scale: 1.1;
+}
+header .header-block .reserve {
+  cursor: pointer;
+  transition-duration: 0.5s;
+  background-color: #7A7F80;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-right: 30px;
+}
+header .header-block .reserve h3 {
+  font-size: 20px;
+  color: #f6f6f6;
+}
+header .header-block .reserve:hover {
+  scale: 1.07;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 330px;
+  background-color: #212529;
+  padding: 20px 0;
+}
+footer .footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1600px;
+}
+footer .footer-container h3 {
+  color: #f6f6f6;
+  font-size: 40px;
+  margin: 30px 0 10px 0;
+}
+footer .footer-container .footer-hr {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+footer .footer-container .footer-hr hr {
+  width: 35%;
+  height: 5px;
+  background-color: #f6f6f6;
+}
+footer .footer-container p {
+  cursor: pointer;
+  color: #f6f6f6;
+  margin: 15px 0;
+  font-size: 25px;
+}
+footer .footer-container p a {
+  color: #f6f6f6;
+}
+footer .footer-container p a:hover {
+  color: #f6f6f6;
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+}
+.title h1 {
+  font-size: 50px;
+}
+
+.dishes-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+.dishes-container .dishes-block {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-items: center;
+  width: 70%;
+  max-width: 1600px;
+}
+.dishes-container .dishes-block .dishes {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  background-color: #f6f6f6;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  padding: 20px;
+  width: 500px;
+}
+.dishes-container .dishes-block .dishes .dishes-img {
+  display: flex;
+  justify-content: center;
+}
+.dishes-container .dishes-block .dishes .dishes-img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+.dishes-container .dishes-block .dishes .dishes-title {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 20px;
+}
+.dishes-container .dishes-block .dishes .dishes-title h4 {
+  font-size: 20px;
+}
+.dishes-container .dishes-block .dishes .dishes-bio {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+.dishes-container .dishes-block .dishes .dishes-bio p {
+  font-size: 15px;
+}
+.dishes-container .dishes-block .dishes .dishes-w {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0 0;
+  font-size: 17px;
+}
+.dishes-container .dishes-block .dishes .dishes-w .dishes-is {
+  color: green;
+}
+.dishes-container .dishes-block .dishes .dishes-w .dishes-isnt {
+  color: red;
+}
+.dishes-container .dishes-block .dishes:hover {
+  transition-duration: 0.5s;
+  scale: 1.05;
+}
+
+.reserve-table {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+.reserve-table .reserve-block {
+  padding: 50px;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+.reserve-table .reserve-block .reserve-form {
+  display: flex;
+  flex-direction: column;
+}
+.reserve-table .reserve-block .reserve-form .reserve-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.reserve-table .reserve-block .reserve-form .reserve-title h5 {
+  font-size: 20px;
+}
+.reserve-table .reserve-block .reserve-form .reserve-title i {
+  font-size: 20px;
+  transition-duration: 0.5s;
+}
+.reserve-table .reserve-block .reserve-form .reserve-title i:hover {
+  scale: 1.1;
+  color: #7A7F80;
+}
+.reserve-table .reserve-block .reserve-form .reserve-hr {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+.reserve-table .reserve-block .reserve-form .reserve-hr hr {
+  width: 98%;
+  height: 3px;
+  background-color: #7A7F80;
+}
+.reserve-table .reserve-block .reserve-form label {
+  display: block;
+  margin: 10px 0;
+  font-size: 15px;
+}
+.reserve-table .reserve-block .reserve-form input {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin: 10px 0;
+}
+.reserve-table .reserve-block .reserve-form .reserve-error {
+  display: flex;
+  justify-content: center;
+}
+.reserve-table .reserve-block .reserve-form .reserve-error p {
+  color: red;
+  font-size: 15px;
+}
+.reserve-table .reserve-block .reserve-form button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10rem;
+  color: #7A7F80;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.reserve-table .reserve-block .reserve-form button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f6f6f6;
+  border-radius: 10rem;
+  z-index: -2;
+}
+.reserve-table .reserve-block .reserve-form button:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #d0d0d0;
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.reserve-table .reserve-block .reserve-form button:hover {
+  color: #fff;
+}
+.reserve-table .reserve-block .reserve-form button:hover:before {
+  width: 100%;
+}
+
+.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+/*# sourceMappingURL=styles.css.map */

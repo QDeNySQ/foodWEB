@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1500px) {
+  .dishes-container .dishes-block {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .title h1 {
+    font-size: 30px;
+  }
+  .dishes-container .dishes-block .dishes {
+    width: 370px;
+  }
+  footer .footer-container p {
+    font-size: 17px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .reserve-table .reserve-block {
+    padding: 30px;
+    border-radius: 15px;
+  }
+  header .header-block .reserve {
+    margin-right: 0;
+  }
+  header .header-block .reserve h3 {
+    font-size: 17px;
+  }
+  .dishes-container .dishes-block .dishes {
+    width: 260px;
+  }
+  .dishes-container .dishes-block .dishes .dishes-img img {
+    width: 180px;
+    height: 180px;
+  }
+  .dishes-container .dishes-block .dishes .dishes-title h4 {
+    font-size: 12px;
+  }
+  .dishes-container .dishes-block .dishes .dishes-bio p {
+    font-size: 12px;
+  }
+  .dishes-container .dishes-block .dishes .dishes-w p {
+    font-size: 12px;
+  }
+  footer {
+    height: 280px;
+  }
+  footer .footer-container h3 {
+    font-size: 25px;
+  }
+  footer .footer-container p {
+    font-size: 12px;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /* */
+}
+
+/*# sourceMappingURL=adaptive.css.map */
